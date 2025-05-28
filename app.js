@@ -1,7 +1,7 @@
 import { PORT } from "./config/eslint.js";
 
 import express from "express";
-import installDatabase from "./routes/database/sqlite.js";
+import installDatabase from "./database/sqlite.js";
 import todoRouter from "./routes/index.js";
 
 const app = express();

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getDb } from "./database/sqlite.js";
+import { getDb } from "../database/sqlite.js";
 
 const todoRouter = Router();
 
